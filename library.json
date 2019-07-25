@@ -4,16 +4,14 @@
     "description": "ESP32 compatible driver for OV2640 and OV3660 image sensors.",
     "build": {
         "flags": [
-            "-Idriver/include",
             "-Idriver/private_include",
-            "-Iconversions/include",
             "-Iconversions/private_include",
             "-Isensors/private_include"
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/espressif/esp32-camera"
+        "url": "https://github.com/Mnark/esp32-camera"
     },
     "frameworks": "espidf",
     "platforms": "*"
